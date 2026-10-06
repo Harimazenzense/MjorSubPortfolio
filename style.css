@@ -2,7 +2,7 @@
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1820;--ink:#e8eef3;--mute:#9fb0be;--line:#2a3a47;--panel:#16232d;--accent:#5cc3e0;--on-accent:#0f1820}}
 :root[data-theme="dark"]{--bg:#0f1820;--ink:#e8eef3;--mute:#9fb0be;--line:#2a3a47;--panel:#16232d;--accent:#5cc3e0;--on-accent:#0f1820}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
+html{scroll-padding-top:calc(90px + env(safe-area-inset-top,0px))}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "IBM Plex Sans",system-ui,sans-serif}
 a{color:var(--accent)}
